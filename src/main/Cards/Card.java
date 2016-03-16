@@ -1,19 +1,24 @@
 package Cards;
 
 public class Card {
-    public final static int SpecialOrWeather = 4;
-    public final static int Hero = 1;
-    public final static int Melee = 2;
-    public final static int Ranged = 3;
-    public final static int Siege = 4;
 
-    public void selectedCard(){
-        System.out.println("This card in on the board");
+    public void selectedCard(String cardName, String cardDescription, int cardDamageAmount, String cardAbility){
+//        System.out.println("This card in on the board");
+        System.out.printf("%s - %s\n %s \n %d", cardName, cardAbility, cardDescription, cardDamageAmount);
+    }
+
+    public void cardName(cardName){
+
+    }
+
+    public void cardDescription(description){
+
     }
 
     public void cardDamage(damageAmount){
 
     }
+
 
 
 }
