@@ -12,11 +12,11 @@ public class WinConditions {
 
     }
 
-    public void winGameConditions(int enemyWins, int playerWins) {
-        if (enemyWins >= playerWins) {
-            System.out.println("You have lost the game ");
+    public void winGameConditions(int playerWins) {
+        if (playerWins == 0 ) {
+            System.out.println("You have won the game ");
         } else {
-            System.out.println("You have won the game");
+            System.out.println("You have lost the game");
         }
     }
 }

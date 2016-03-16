@@ -5,7 +5,6 @@ public class PlayerStats {
     int enemyScore = 0;
     int playerScore = 0;
     int playerWins = 0;
-    int enemyWins = 0;
 
-    public void showPlayerCurrentScore
+    public void showPlayerCurrentScore;
 }
